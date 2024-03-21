@@ -1,0 +1,22 @@
+// forma de testar rotas de api REST CLIENT
+### // divide as requisições 
+
+POST  http://localhost:3333/api/links
+Content-Type: application/json
+
+{
+    "code": "adonisjs",
+    "url": "https://adonisjs.com/"
+}
+
+###
+// Listar links 
+GET http://localhost:3333/api/links
+
+###
+
+GET http://localhost:3333/api/metrics
+
+###
+
+GET http://localhost:3333/adonis 
