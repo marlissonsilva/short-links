@@ -1,6 +1,7 @@
 // forma de testar rotas de api REST CLIENT
 ### // divide as requisições 
 
+// Create short link
 POST  http://localhost:3333/api/links
 Content-Type: application/json
 
@@ -10,13 +11,13 @@ Content-Type: application/json
 }
 
 ###
-// Listar links 
+// Get links
 GET http://localhost:3333/api/links
 
 ###
-
+// Get metrics
 GET http://localhost:3333/api/metrics
 
 ###
-
+// Redirect
 GET http://localhost:3333/adonis 
